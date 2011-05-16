@@ -287,6 +287,7 @@ static struct cpufreq_driver msm_cpufreq_driver = {
 	.target		= msm_cpufreq_target,
 	.attr		= msm_cpufreq_attr,
 	.name		= "msm",
+	.attr		= msm_cpufreq_attr,
 };
 
 static struct notifier_block msm_cpufreq_pm_notifier = {
