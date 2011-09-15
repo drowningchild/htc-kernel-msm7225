@@ -32,5 +32,3 @@ struct wifi_platform_data {
 };
 
 #endif
-
-
